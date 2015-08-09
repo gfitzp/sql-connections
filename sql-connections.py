@@ -25,6 +25,9 @@ import mysql.connector as mariadb
 import logging
 
 
+verbose = False
+
+
 # dbConnect()
 #
 # INPUT
