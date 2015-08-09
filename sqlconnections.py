@@ -24,6 +24,8 @@
 import mysql.connector as mariadb
 import logging
 
+from tqdm import *
+
 
 verbose = False
 
