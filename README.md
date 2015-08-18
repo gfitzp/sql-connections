@@ -1,5 +1,5 @@
 # sql-connections
-Functions to handle MySQL database connections and queries
+Functions to handle MySQL and Oracle database connections and queries
 
 ----
 ## dbConnect()
