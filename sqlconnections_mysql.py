@@ -40,7 +40,11 @@ verbose = False
 #
 # Opens a connection to the given database
 
-def dbConnect(DB_USER, DB_PASSWORD, DB_HOST, DB_SCHEMA):
+def dbConnect(DB_USER, DB_HOST, DB_SCHEMA, DB_PASSWORD = None):
+
+    if not DB_PASSWORD:
+
+        DB_PASSWORD = input("Enter password: ")
 
     print("Opening connection to database...", end=" ")
     
